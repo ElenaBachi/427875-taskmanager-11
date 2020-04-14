@@ -3,9 +3,9 @@ const filterNames = [
 ];
 
 const generateFilters = () => {
-  return filterNames.map((it) => {
+  return filterNames.map((name) => {
     return {
-      name: it,
+      name,
       count: Math.floor(Math.random() * 10),
     };
   });
